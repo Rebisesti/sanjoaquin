@@ -21,6 +21,8 @@ body {
     background-color: #fffded;
 }
 
+/*HEADER CODE*/
+
 header {
     display: flex;
     gap: 20px;
@@ -45,8 +47,24 @@ header h3 {
     padding-left: 30px;
 }
 
+/*MAIN CODE*/
+
 main {
     padding: 1em;
+    display: flex;
+}
+
+main aside {
+    width: 23%;
+}
+
+main section {
+    width: 77%;
+}
+
+main section article article article{
+    display: flex;
+    align-items: center;
 }
 
 main img {
@@ -87,6 +105,8 @@ main h3 {
     font-size: 105%;
     padding-bottom: .25em;
 }
+
+/*FOOTER CODE*/
 
 footer {
     background-color: #931420;
