@@ -177,16 +177,24 @@ a:hover, a:focus {
 
 @media only screen and (max-width: 767px) {
     main {
-        flex-direction: column;
+        flex-direction: column-reverse;
+        align-items: center;
     }
 
-    aside {
-        width: 95%;
+    section, aside {
+        max-width: 95%;
     }
 
-    section {
-        width: 95%;
+    #mobilemenu {
+        display: block;
     }
 
+    #nav_menu {
+        display: none;
+    }
+
+    .slicknav_menu {
+        background-color: steelblue;
+    }
 
 }
